@@ -1,0 +1,16 @@
+import time
+timee=time.strftime("%H:%M:%S")
+t= time.strftime("%H") 
+c=int (t)
+print(c)
+if c>=12 and c<17 :
+    print("GOOD AFTERNOON SIR :-)")
+elif c>=4 and c<12:
+    print("GOOD MORNING SIR :-)")
+elif c>=17 :
+    print("GOOD EVENING SIR :-)")
+print()
+print("HAVE A GOOD DAY")
+
+    
+ 
