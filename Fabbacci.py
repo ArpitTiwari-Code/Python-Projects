@@ -5,7 +5,6 @@ b=1
 d=0
 print(a)
 for i in range (0,c):
-
     d=a+b
     b=a
     a=d
